@@ -13,7 +13,16 @@
 			"onReachBottomDistance": 200
 		}
 
-	}],
+	}    ,{
+            "path" : "pages/components/switch/switch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "组件整合",

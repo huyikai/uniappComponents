@@ -1,5 +1,5 @@
 <template>
-	<view class="waterfall" :style="{padding:`0 ${padding}rpx`}">
+	<view class="waterfall" :style="{padding:`30rpx ${padding}rpx`}">
 		<template v-if="value.length > 0">
 			<view id="u-left-column" class="column">
 				<!-- 左侧内容插槽 -->

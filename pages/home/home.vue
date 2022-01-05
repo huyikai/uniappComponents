@@ -18,6 +18,10 @@ export default {
 				{
 					name: '瀑布流',
 					path: '/pages/components/waterfall/waterfall'
+				},
+				{
+					name: 'switch',
+					path: '/pages/components/switch/switch'
 				}
 			]
 		};
@@ -40,15 +44,16 @@ export default {
 
 <style lang="scss">
 .grid-box {
+	display: flex;
+	flex-flow: row wrap;
+
 	.item {
 		width: calc(100vw / 3);
 		height: calc(100vw / 3);
 		line-height: calc(100vw / 3);
 		text-align: center;
-		border-right: 1rpx;
-		border-bottom: 1rpx;
-		border-style: solid;
-		border-color: #f5f5f5;
+		border-right: 1rpx solid #f5f5f5;
+		border-bottom: 1rpx solid #f5f5f5;
 		box-sizing: border-box;
 		font-weight: bold;
 		color: #333;
