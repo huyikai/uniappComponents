@@ -1,0 +1,23 @@
+{
+	"pages": [{
+		"path": "pages/home/home",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/components/waterfall/waterfall",
+		"style": {
+			"navigationBarTitleText": "瀑布流",
+			"enablePullDownRefresh": false,
+			"onReachBottomDistance": 200
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "组件整合",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
